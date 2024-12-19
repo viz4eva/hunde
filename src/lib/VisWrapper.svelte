@@ -32,9 +32,3 @@
 {#each dogsByBreed as { breed, filteredDogs }}
 	<div class="wrapper"><Vis {breed} {filteredDogs} /></div>
 {/each}
-
-<style>
-    .wrapper {
-        padding-top: 5%;
-    }
-</style>
