@@ -1,38 +1,9 @@
-# sv
+# Draft for a custom range plot about Zürich dogs
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## Wie ähnlich sind sich Zürcher Hunde und ihre Besitzer?
 
-## Creating a project
+Es ist ein bekanntes Klischee, dass Hunde und ihre Besitzer:innen sich oft ähneln. Anhand der Daten zu Alter und Geschlecht der Hunde und der zugehörigen Menschen können wir sehen, ob das zumindest in dieser Hinsicht zutreffen könnte. Ich habe beispielhaft zehn Hunderassen ausgewählt, die in Zürich in überschaubarer Häufigkeit anzutreffen sind.
 
-If you're seeing this, you've probably already done this step. Congrats!
+Das Alter des Besitzers ist als Rechteck gezeichnet (über ein Jahrzehnt, da keine genaueren Altersangaben vorliegen), das Alter des Hundes als Kreis. Außerdem sind die Symbole orange gefärbt, wenn das Lebewesen weiblich ist, und grün, wenn es männlich ist.
 
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Für die Datenexploration wurde R und für die Implementierung der Visualisierungen D3.js genutzt. Dieser Entwurft war eine Übung im Rahmen einer Bewerbungsaufgabe. Die Daten sind höchstwahrscheinlich mehr oder weniger fiktiv, aber lustig 🐶
