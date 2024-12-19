@@ -55,3 +55,17 @@
 		{/each}
 	</g>
 </svg>
+
+{#if breed === "Mops"}
+<p>Am Beispiel des Mopses können wir sehen, dass die meisten Besitzer:innen zwischen 31 und 40 Jahren sind. Über alle menschlichen Altersklassen hinweg finden sich Hunde jeden Alters. Anhand der zahlreichen grauen Linien ist außerdem zu erkennen, dass Besitzer:innen nicht häufiger einen Mops gleichen Geschlechts besitzen als einen anderen Geschlechts. Zumindest für den Fall des Mopses stimmt das Klischee vom hündischen Doppelgänger also nicht.</p>
+
+<p>Aber wie sieht es bei anderen Rassen aus?</p>
+{/if}
+
+<style>
+    p {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 80%;
+    }
+</style>
